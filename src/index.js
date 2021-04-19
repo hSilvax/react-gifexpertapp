@@ -5,7 +5,7 @@ import GifExpertApp from './GifExpertApp';
 import './index.css';
 
 ReactDOM.render(  
-  <GifExpertApp />, 
+  <GifExpertApp defaultCategories={["Macross"]}/>, 
   document.getElementById('root')
 );
 
